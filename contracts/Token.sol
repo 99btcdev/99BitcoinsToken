@@ -217,7 +217,7 @@ contract Token is Context, IERC20Metadata, Ownable {
    */
   constructor() {
     _name = '99 Bitcoins';
-    _symbol = '99BTCS';
+    _symbol = '99BTC';
     _mint(0xd1602Bd81174C9FEC582a335047291036a9B1A51, presaleReserve);
     _mint(0x25c4FFBa937De48fEC0BEF305287E93Bf5867334, stakingReserve);
     _mint(0x51E3F8C9fA7636704E026A38B0FA57E419Fba5BC, projectFundsReserve);
